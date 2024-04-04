@@ -10,3 +10,5 @@ Additionally, the robot itself can:
   - autonomously naviagte this map using Djikstra's
   - navigate to multiple users in one trip following a FIFO queue
   - autonomously open and close dual lids representing recycyling or general waste
+
+A full report on the project can be found in project_report.pdf
