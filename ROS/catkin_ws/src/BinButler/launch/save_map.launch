@@ -1,0 +1,7 @@
+<launch>
+    <arg name="map_1" default="/maps/map"/>
+  	
+  	<node name="map_saver1" pkg="map_server" type="map_saver" args="-f /map">
+  		<remap from="/map" to="$(arg map_1)"/>
+	</node>
+</launch>

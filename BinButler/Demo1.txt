@@ -1,0 +1,13 @@
+
+# on the pi
+roscore
+roslaunch turtlebot3_bringup turtlebot3_robot.launch
+
+# on the rmeote pc
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+roslaunch turtlebot3_navigation move_base.launch
+
+# server
+python3 server.py
+
+# guy does his stuff

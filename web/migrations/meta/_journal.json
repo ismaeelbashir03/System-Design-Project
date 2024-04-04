@@ -1,0 +1,13 @@
+{
+	"version": "5",
+	"dialect": "pg",
+	"entries": [
+		{
+			"idx": 0,
+			"version": "5",
+			"when": 1712092289798,
+			"tag": "0000_lethal_the_stranger",
+			"breakpoints": true
+		}
+	]
+}
